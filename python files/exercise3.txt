@@ -1,0 +1,15 @@
+name = str(input("enter name: "))
+age = int(input("enter age: "))
+hundredth_year = 2021+(100-age)
+print(f'{name} will become 100 years in {hundredth_year}')
+
+
+using functions:
+
+name = str(input("enter name: "))
+age = int(input("enter age: "))
+def age(n,a):
+    hundredth_year=2021+(100-a)
+    return hundredth_year
+print(name,"become 100 years old in ", age(name,age))
+
